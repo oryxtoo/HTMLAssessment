@@ -1,0 +1,63 @@
+body {
+  background-color: lightblue;
+}
+
+h2, h3, h4, h5 {
+  color: darkgrey;
+  font-family: sans-serif;
+}
+
+#scoreBoard {
+  border: 10px;
+  border-color: teal;
+  border-style: groove;
+  text-align: center;
+
+}
+
+th {
+  color: teal;
+  font-weight: bold;
+}
+
+ul, ol {
+  list-style-type: square;
+}
+tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}
+#scoreBoard th{
+   background-color: #ccc;
+}
+a:hover {
+  background-color: darkgrey;
+  font-style: normal;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: black;
+  color: lightblue;
+}
+
+img {
+  display: none;
+}
+
+body > ul > li:first-child {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+body > ul > li:last-child {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#checkbox-grid{
+  list-style-type: none;
+
+}
